@@ -53,7 +53,7 @@ const Navbar = () => {
     <nav className="bg-gray-900 p-4 flex flex-col md:flex-row justify-between items-center z-20">
       <div className="flex items-center mb-4 md:mb-0 w-full justify-between md:w-auto">
         <Link href="/" className="text-3xl font-bold text-white">
-          Logo
+          <img src="/logo.jpeg" alt="Logo" className="h-8 w-8 sm:h-10 sm:w-10" />
         </Link>
         {user ? (
           <>
